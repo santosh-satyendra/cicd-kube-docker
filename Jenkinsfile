@@ -6,6 +6,9 @@ pipeline {
         registryCredential = "dockerhub"
     }
 
+
+
+
     stages {
         stage('BUILD') {
             steps {
